@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+  app:
+    image: lapierre/sample-backend-service:0.0.1-SNAPSHOT
+    environment:
+      - SPRING_DATASOURCE_USERNAME=dev
+      - SPRING_DATASOURCE_PASSWORD=123ewqasd
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db/sample
+    ports:
+      - "8080:8080"
+
