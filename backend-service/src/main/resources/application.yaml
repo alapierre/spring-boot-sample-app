@@ -9,3 +9,18 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: none
+
+management:
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  prometheus:
+    metrics:
+      export:
+        enabled: true

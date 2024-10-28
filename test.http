@@ -2,4 +2,12 @@
 GET localhost:8080/api/person
 Accept: application/json
 
+### Health
+GET localhost:8080/actuator/health
+
+### Metrics
+GET localhost:8080/actuator/metrics
+
 ###
+GET localhost:8080/actuator/prometheus
+
