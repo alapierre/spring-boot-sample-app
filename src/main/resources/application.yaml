@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-boot-sample
+  datasource:
+    url: jdbc:postgresql://localhost/sample
+    username: dev
+    password: 123ewqasd
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
