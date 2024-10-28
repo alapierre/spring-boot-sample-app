@@ -93,6 +93,16 @@
                     </to>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.owasp</groupId>
+                <artifactId>dependency-check-maven</artifactId>
+                <version>11.0.0</version>
+                <configuration>
+                    <databaseDriverPath>/home/adrian/.m2/repository/com/h2database/h2/2.2.224/h2-2.2.224.jar</databaseDriverPath>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
