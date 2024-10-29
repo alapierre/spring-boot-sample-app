@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>backend-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>SpringBoot Sample</name>
 
     <description>spring boot MVC sample app for learning</description>
@@ -120,6 +120,18 @@
                 <configuration>
                     <databaseDriverPath>/home/adrian/.m2/repository/com/h2database/h2/2.2.224/h2-2.2.224.jar</databaseDriverPath>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.21.0</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.8.0</version>
             </plugin>
 
         </plugins>
