@@ -16,7 +16,6 @@
     <description>spring boot MVC sample app for learning</description>
 
     <properties>
-        <java.version>21</java.version>
         <jib-maven-plugin.version>3.4.4</jib-maven-plugin.version>
         <jib.docker.image>sample-${project.artifactId}</jib.docker.image>
         <jib.docker.tag>${project.version}</jib.docker.tag>
@@ -76,7 +75,7 @@
         </dependency>
 
         <!--
-        before 3.3.5 was micrometer-registry-prometheus-simpleclient
+        before 3.3.5 was micrometer-registry-prometheus
         https://github.com/micrometer-metrics/micrometer/issues/5093
         -->
     </dependencies>
